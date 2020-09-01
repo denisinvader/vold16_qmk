@@ -25,6 +25,7 @@
 
 #define C6_AUDIO
 #define AUDIO_CLICKY
+#define AUDIO_VOICES
 
 /* number of backlight levels */
 

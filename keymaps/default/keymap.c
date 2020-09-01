@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	 * |------+------+------+------|
 	 * |CkTog |CkDwn |CkUp  |      |
 	 * |------+------+------+------|
-	 * |MuTog |MuMod |      |      |
+	 * |MuTog |MuMod |VocPrv|VocNxt|
 	 * |------+------+------+------|
 	 * |Numpad|Nvgtn |Spctcl|      |
 	 * `---------------------------'
@@ -92,7 +92,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_PREF] = KEYMAP(
 		AU_TOG, XXXXXXX, XXXXXXX, RESET,
 		CK_TOGG, CK_DOWN, CK_UP, XXXXXXX,
-		MU_TOG, MU_MOD, XXXXXXX, XXXXXXX,
+		MU_TOG, MU_MOD, MUV_DE, MUV_IN,
 		TO(_NUMPAD), TO(_NAVIGATION), TO(_SPECTACLE), _______
 	),
 };
